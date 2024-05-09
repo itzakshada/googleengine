@@ -11,10 +11,10 @@ void selectionSort( int arr[],int n)
 
   
 cout<<"Sorted elements in ascending order:";
-for(i=0;i<n;i++)
+for(int i=0;i<n;i++)
   cin>>arr[i];
 cout<<"Sorted elements in descending order:";
-for(i=n-1;i>=0;i--)
+for(int i=n-1;i>=0;i--)
   cin>>arr[i];
 }
 int main(){

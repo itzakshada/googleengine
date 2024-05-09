@@ -24,7 +24,8 @@ cout<<"Sorted elements in descending order:";
 for(int i=n-1;i>=0;i--)
   cin>>arr[i];
 }
-int main(){
+int main()
+{
   int n;
   cout<<"enter the number of elements to sort: ";
   cin>>n;
@@ -35,14 +36,5 @@ int main(){
 
   selectionSort(arr,n);
   
-  
-
-
-
-
-
-
-
-
   
 }

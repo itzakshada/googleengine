@@ -19,10 +19,11 @@ void selectionSort( int arr[],int n)
     }
     cout<<"Sorted elements in ascending order:";
     for(int i=0;i<n;i++)
-    cin>>arr[i];
+    cout<<arr[i]<<"";
     cout<<"Sorted elements in descending order:";
     for(int i=n-1;i>=0;i--)
-    cin>>arr[i];
+    cout<<arr[i]<<"";
+    
   }
 }
 int main()
